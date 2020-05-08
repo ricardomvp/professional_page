@@ -1,0 +1,356 @@
+.platform > a,
+.learn-path > a {
+  color: black;
+  text-decoration: none;
+}
+.platform:hover > ul .learn-path {
+  display: inherit;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+}
+#platform:hover {
+  font-weight: bold;
+}
+.platform:hover > ul #rockwell-course img,
+.learn-path:hover > ul .course img,
+.learn-path:hover > ul .course-learn-path img{
+  border-radius: 3px;
+  width: 110px;
+  height: auto;
+  display: inherit;
+  font-weight: bold;
+}
+.learn-path:hover a {
+  font-weight: bold;
+}
+.learn-path {
+  display: none;
+}
+.course-learn-path,
+.course {
+  display: inline;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+.course-learn-path img,
+.course img{
+  width: 110px;
+  height: auto;
+  display: none;
+}
+.course img:hover {
+  border-radius: 5px;
+  transform: scale(2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+  opacity: 0.95;
+}
+.course-learn-path img:hover{
+  border-radius: 5px;
+  transform: scale(2.5);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+  opacity: 0.95;
+}
+.course-learn-path img:hover::-webkit-scrollbar,
+.course img:hover::-webkit-scrollbar {
+  display: none;
+}
+#section-content-ecourses {
+  overflow: hidden;
+}
+.section-content-card{
+  margin-left: 50px;
+  margin-top: 10px;
+  color: #0F4C81;
+  opacity: 0.7;
+  vertical-align: baseline;
+}
+.section-content-card-image {
+  display: inline;
+}
+.section-content-card-image img {
+  width: 20px;
+  height: auto;
+}
+.section-content-card-info {
+  margin-top: 2px;
+  display: inline;
+}
+.section-content-card-info span {
+  font-size: 14px;
+  font-weight: bold;
+}
+section {
+  background-image: url('../../images/background/white-circuit-backdrop-creative-white-circuit-backdrop-copy-space-technology-computing-concept-113558664.jpg');
+  height: 150px;
+  border: 1px solid #0F4C81;
+  margin: 1px;
+  border-radius: 7px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+section:hover {
+  color: black;
+  transform: scale(1.25);
+  -webkit-transition: all .75s ease;
+  -moz-transition: all .75s ease;
+  -ms-transition: all .75s ease;
+  transition: all .75s ease;
+  height: auto;
+  display: inherit;
+}
+section h2{
+  margin: 0px;
+}
+.section-header {
+  margin: 20px;
+  margin-bottom: 0px;
+  border-bottom: 2px solid #0F4C81;
+}
+.section-content {
+  margin: 20px;
+  text-align: justify;
+}
+.section-content:hover{
+  color: black;
+  overflow: auto;
+  text-overflow: clip;
+  white-space: normal;
+  display: inherit;
+}
+.section-content-item {
+  margin-bottom: 10px;
+}
+.section-content-item-title {
+  font-size: 17px;
+  font-weight: bold;
+  color: #0F4C81;
+}
+.section-content-item-company{
+  font-size: 15px;
+  font-weight: bold;
+  color: gray;
+  margin: 5px;
+}
+.section-content-item-date {
+  font-style: italic;
+  font-size: 13px;
+  margin: 10px;
+}
+.section-content-item-date p {
+  margin: 0px;
+}
+.section-content-item-date span{
+  color: #0F4C81;
+  display: inline;
+  float: right;
+}
+.section-content-item-description,
+.section-content-item-list {
+  font-size: 14px;
+}
+.section-content-item-list ul {
+  margin: 0px;
+}
+.section-content-item-brand img{
+  width: auto;
+  height: 50px;
+  float: right;
+  margin-right: 20px;
+  /* filter: drop-shadow(0 0 0.3rem gray) */
+}
+.section-content-hero img {
+  width: 200px;
+  border-radius: 5px;
+  height: auto;
+  float: right;
+  margin-top: 10px;
+  margin-right: 50px;
+  opacity: 0.96;
+  filter: drop-shadow(0 0 0.7rem)
+}
+
+/* projects */
+.section-content-project{
+  width: 30%;
+  height: auto;
+  min-height:300px;
+  border: 2px solid #0F4C81;
+  border-radius: 5px;
+  margin: 1%;
+  background-color: white;
+  opacity: 0.7;
+  display: inline-block;
+  vertical-align: top;
+}
+.section-content-project:hover{
+  opacity: 1;
+}
+.section-content-project-img {
+  width: 90%;
+  height: 150px;
+  border: 1px solid #0F4C81;
+  border-radius: 5px;
+  margin: 5%;
+  overflow: hidden;
+}
+.section-content-project-img img {
+  width: 98%;
+  height: auto;
+  margin: 1px;
+}
+.section-content-project-title a{
+  margin-left: 20px;
+  color: #0F4C81;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: -1;
+}
+.section-content-project-info {
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  min-height: 40px;
+}
+.section-content-project-info-learned-skill {
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: gray;
+  font-size: 10px;
+}
+/* projects */
+
+.fixed{
+  height: 60px;
+}
+.header{
+  /* Classic blue #0F4C81 */
+  /* Complement #81440F */
+  background-image: linear-gradient(white,#0F4C81);
+  display: flex;
+  height: 70px;
+  border-radius: 7px;
+  align-items: center;
+  justify-content: space-between;
+  width:73%;
+  position:fixed;
+  top:0;
+  transition: top 0.3s ease-in-out;
+}
+.header a {
+  color: #0F4C81;
+  font-weight: bold;
+  text-decoration: none;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+}
+.header a:hover {
+  font-size: 25px;
+}
+.header li{
+  display: inline;
+}
+.header ul {
+  padding: 0 10px;
+}
+figure {
+  display: inline;
+}
+/* footer */
+.footer {
+  background-image: linear-gradient(#0F4C81,white);
+  padding: 1%;
+  height: 50px;
+  /* border-radius: 7px; */
+  opacity: .95;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+.footer-top {
+  width: 92%;
+  margin: 3%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  overflow: auto;
+}
+.footer-top-contact-with-me {
+  display: inline-block;
+  margin-right: 3%;
+}
+.footer-top-contact-with-me a {
+  color: black;
+  text-decoration: none;
+}
+.footer-top-contact-with-me-big {
+  font-size: 22px;
+  font-weight: bold;
+}
+.footer-top-contact-with-me-small {
+  font-size: 10px;
+}
+.footer-top hr {
+  border: 1px solid #0F4C81;
+  width: 66%;
+  display: inline-block;
+}
+.footer-top-icon {
+  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
+  float: right;
+}
+.footer-top-icon img{
+  height: 25px;
+  width: auto;
+}
+.footer-top-icon img:hover{
+  transform: scale(1.25);
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.footer-content {
+  margin-top: 1%;
+  margin-left: 48%;
+}
+.footer-content a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* footer */
+.container {
+  font-family: helvetica;
+  width: 74%;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+.bckgrnd {
+  background-image: url('../../images/background/47+-Circuit-Wallpaper-HD-on-WallpaperSafari.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
