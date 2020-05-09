@@ -278,7 +278,8 @@ figure {
 .footer {
   background-image: linear-gradient(#0F4C81,white);
   padding: 1%;
-  height: 50px;
+  min-height: 60px;
+  height: auto;
   /* border-radius: 7px; */
   opacity: .95;
   display: block;
@@ -337,6 +338,17 @@ figure {
   color: black;
   font-weight: bold;
   text-decoration: none;
+}
+.footer-content-download-cv {
+  display: inline-block;
+  float: right;
+  margin-bottom: 5px;
+  margin-right: 10%;
+}
+.footer-content-download-cv img {
+  margin-left: 5px;
+  width: 20px;
+  height: auto;
 }
 /* footer */
 .container {
