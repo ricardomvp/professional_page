@@ -126,6 +126,10 @@ section h2{
   margin: 20px;
   text-align: justify;
 }
+.section-content li a{
+  /* text-decoration: none; */
+  color: black;
+}
 .section-content:hover{
   color: black;
   overflow: auto;
